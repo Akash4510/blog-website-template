@@ -286,9 +286,9 @@ section h1 {
 }
 
 .about-img {
-  width: 320px;
-  height: 260px;
-  border: 1px solid var(--clr-primary);
+  width: 350px;
+  height: 280px;
+  /* border: 1px solid var(--clr-primary); */
   border-radius: 10px;
 }
 
