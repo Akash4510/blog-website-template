@@ -109,7 +109,7 @@ section h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1.5rem;
+  gap: 1.1rem;
 }
 
 .logo {
@@ -125,10 +125,13 @@ section h1 {
 .nav-link {
   color: var(--clr-text);
   transition: 0.3s ease;
+  border-radius: 6px;
+  padding: 4px 6px;
 }
 
 .nav-link:hover {
   color: var(--clr-primary);
+  background-color: var(--clr-gradient-start);
 }
 
 .btn {
